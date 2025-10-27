@@ -22,3 +22,5 @@ The analysis of the cluster usage data reveals a highly uneven distribution of w
 The visualizations generated from this analysis help illustrate these usage patterns more clearly. The bar chart depicting the number of applications per cluster immediately highlights the imbalance in workload distribution—showing one dominant bar corresponding to cluster 1485248649253, which towers over the rest. This visual emphasizes how disproportionately the workload was handled by a single cluster, making it easy to identify where resource utilization was concentrated.
 
 Additionally, the duration distribution plot for the largest cluster provides insight into how application runtimes varied within that high-activity environment. The histogram, plotted on a log scale, reveals a high distribution of run times around $10^3$ seconds, although many others ran significantly longer. This lack of variability suggests that the cluster was handling similar jobs, possibly including possibly computationally intensive batch processes. 
+
+![alt text](image.png)

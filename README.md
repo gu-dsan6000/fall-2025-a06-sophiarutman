@@ -128,7 +128,7 @@ Follow [AUTOMATION_README.md](AUTOMATION_README.md) to create your cluster:
 
 ```bash
 # Run the automated setup script
-./setup-spark-cluster.sh <YOUR_LAPTOP_IP>
+./setup-spark-cluster.sh 98.192.202.109
 
 # This creates a 4-node cluster (1 master + 3 workers)
 # The script will auto-detect your IAM instance profile for S3 access
@@ -329,9 +329,9 @@ exit
 
 # Download results to your repo (adjust filenames based on your problem)
 # For problem1, download all 3 output files:
-scp -i $KEY_FILE ubuntu@$MASTER_PUBLIC_IP:~/spark-cluster/problem1_counts.csv data/output/
-scp -i $KEY_FILE ubuntu@$MASTER_PUBLIC_IP:~/spark-cluster/problem1_sample.csv data/output/
-scp -i $KEY_FILE ubuntu@$MASTER_PUBLIC_IP:~/spark-cluster/problem1_summary.txt data/output/
+scp -i $KEY_FILE ubuntu@$MASTER_PUBLIC_IP:~/data/output/problem1_counts.csv data/output/
+scp -i $KEY_FILE ubuntu@$MASTER_PUBLIC_IP:~/data/output/problem1_sample.csv data/output/
+scp -i $KEY_FILE ubuntu@$MASTER_PUBLIC_IP:~/data/output/problem1_summary.txt data/output/
 
 # For problem2, download all 5 output files:
 scp -i $KEY_FILE ubuntu@$MASTER_PUBLIC_IP:~/spark-cluster/problem2_timeline.csv data/output/
