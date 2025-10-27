@@ -1,0 +1,11 @@
+log_entry,log_level
+"17/06/08 19:02:43 INFO python.PythonRunner: Times: total = 39, boot = -40, init = 79, finish = 0",INFO
+17/06/08 16:51:18 INFO storage.BlockManager: Found block rdd_3672_4 locally,INFO
+17/06/08 19:05:03 INFO executor.Executor: Running task 0.0 in stage 1991.0 (TID 79681),INFO
+17/06/08 22:09:01 INFO output.FileOutputCommitter: Saved output of task 'attempt_201706082216_22190_m_000008_887644' to hdfs://10.10.34.11:9000/pjhe/test/216/_temporary/0/task_201706082216_22190_m_000008,INFO
+"17/06/09 17:40:49 INFO storage.MemoryStore: Block rdd_6_20 stored as bytes in memory (estimated size 1342.0 B, free 428.2 KB)",INFO
+17/06/08 14:56:22 INFO executor.Executor: Finished task 7.0 in stage 88.0 (TID 3730). 2667 bytes result sent to driver,INFO
+17/06/09 21:56:25 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 254382,INFO
+17/06/08 17:38:40 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 39939,INFO
+17/06/08 17:33:42 INFO executor.Executor: Finished task 22.0 in stage 675.0 (TID 27022). 2076 bytes result sent to driver,INFO
+"17/03/16 18:17:39 INFO BlockManagerInfo: Added broadcast_11_piece67 in memory on 10.10.34.38:41129 (size: 4.0 MB, free: 25.8 GB)",INFO
